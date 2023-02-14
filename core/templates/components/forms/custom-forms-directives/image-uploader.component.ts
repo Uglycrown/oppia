@@ -104,13 +104,7 @@ export class ImageUploaderComponent {
     this.backgroundWhileUploading = false;
   }
 
-  keyDownHandler(event) {
-    if (event.key === 'Enter') {
-      this.imageInputRef.nativeElement.click();
-    }
-  }
-
-  handleFile(): void {
+    handleFile(): void {
     let file: File = this.imageInputRef.nativeElement.files[0];
     let filename: string = this.imageInputRef.nativeElement.value.split(
       /(\\|\/)/g).pop();
