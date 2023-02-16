@@ -104,7 +104,7 @@ export class ImageUploaderComponent {
     this.backgroundWhileUploading = false;
   }
 
-    handleFile(): void {
+  handleFile(): void {
     let file: File = this.imageInputRef.nativeElement.files[0];
     let filename: string = this.imageInputRef.nativeElement.value.split(
       /(\\|\/)/g).pop();
