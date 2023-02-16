@@ -196,4 +196,4 @@ export class ImageUploaderComponent {
 }
 
 angular.module('oppia').directive('oppiaImageUploader',
-  downgradeComponent({ component: ImageUploaderComponent })); 
+  downgradeComponent({ component: ImageUploaderComponent }));
